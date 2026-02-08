@@ -18,7 +18,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Bullet
   - Water
   - UI
   - 
@@ -72,6 +72,6 @@ TagManager:
   - name: VFX
     uniqueID: 738997965
     locked: 0
-  - name: New Layer 8
+  - name: Bullet
     uniqueID: 1698658747
     locked: 0

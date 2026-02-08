@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5598560153436391350}
   - component: {fileID: 6064154079480760820}
   - component: {fileID: 5451608682281264040}
+  - component: {fileID: -6154103192126399444}
   m_Layer: 0
   m_Name: Enemy_01
   m_TagString: Enemy
@@ -185,5 +186,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2282224ce0b7059aeabe6690af7e454c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultHealthPoint: 1
   explosionPrefab: {fileID: 6522966813927284026, guid: e53d2c92de41dad9283558826b573be5,
     type: 3}
+--- !u!114 &-6154103192126399444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3052655133664298220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39cde35f3fb8245778a320cbab6f3528, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
